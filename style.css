@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Ebrima;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    background: whitesmoke;
+    justify-content: center;
+}
+#query{
+    width: 400px;
+    margin-right: 20px;
+    padding: 8px 6px;
+    font-size: 1rem;
+}
+button{
+    padding: 5px 15px;
+    background: #fbc531;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.displaydiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    padding: 10px;
+}
+h2{
+    font-size: 2.2rem;
+}
+p{
+    font-size: 1.5rem;
+}
+#article1, #article2{
+    margin-bottom: 40px;
+}
+#article1 h2, #article2 h2, #article3 h2{
+    margin-bottom: 10px;
+}
+#img1, #img2, #img3{
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 550px){
+    #img1, #img2, #img3{
+        width: 80%;
+    }
+}
