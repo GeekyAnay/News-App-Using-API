@@ -4,8 +4,6 @@ const article2 = document.getElementById("article2");
 btn.addEventListener("click", ()=>{
     const query = document.getElementById("query").value;
 
-
-
     fetch(`https://gnews.io/api/v4/top-headlines?&q=${query}&max=4&lang=en&sortby=relevance&token=fc7015ffc46cadc096d5468a180ac0f4`)
     .then(function (response) {
         return response.json();
